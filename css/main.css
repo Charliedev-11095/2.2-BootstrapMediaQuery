@@ -1,0 +1,110 @@
+ .container-fluid.p-0{
+  background-color: rgb(255, 255, 255);
+}
+
+.col-border {
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.numero {
+  text-align: center;
+  font-size: 100px;
+  height: 500px;
+}
+
+.header {
+  text-align: left;
+  font-size: 24px;
+  background-color: #00ff00; /* Header en verde */
+}
+
+.num3{
+  background-color: bg-danger;
+}
+
+/* Personalización con media queries */
+@media (max-width: 1199.98px) { /* Tamaño extra grande (xl), grande (lg), mediano (md) y pequeño (sm) */
+  .header {
+    text-align: left;
+    font-size: 24px;
+    background-color: #00ff00; /* Header en verde */
+  }
+  .numero {
+    text-align: left;
+    font-size: 36px;
+    height: 350px;
+  }
+  .footer-text {
+    font-size: 18px;
+  }
+
+.num2{
+    text-align:right;
+  }
+
+  .num3{
+    background-color: #00ff00;
+    height: 135px;
+    text-align:center;
+  }
+  
+}
+
+@media (max-width: 991.98px) { /* Tamaño mediano (md) y pequeño (sm) */
+  .header {
+    text-align: center;
+    font-size: 18px;
+    background-color: aquamarine; /* Header en aquamarina */
+  }
+  .numero {
+    text-align: left;
+    font-size: 25px;
+  }
+
+.num2{
+    text-align:right;
+  }
+
+  .num3{
+    text-align:center;
+  }
+
+  .footer-text {
+    font-size: 18px;
+  }
+  
+}
+
+@media (max-width: 767.98px) { /* Tamaño pequeño (xs) */
+  .header {
+    text-align: center;
+    font-size: 16px;
+    background-color: coral; /* Header en coral */
+  }
+  .numero {
+    text-align: left;
+    font-size: 50px;
+    height: 165px;
+  }
+
+.num2{
+   text-align: center;
+  }
+
+  .num3{
+    text-align:right;
+  }
+
+  .footer-text {
+    font-size: 15px;
+    text-align: center;
+  }
+
+.num2{
+    background-color:aquamarine;
+  }
+
+  .num3{
+    background-color:#dc3545;
+  }
+}
